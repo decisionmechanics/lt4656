@@ -44,7 +44,7 @@ This course is designed to equip programmers, data scientists, technical authors
 
 ### Overview of Git
 
-- **Git**: A distributed version control system, widely used in software development, known for its efficiency and flexibility.
+- **Git**: A distributed version control system, [widely used](https://stackoverflow.blog/2023/01/09/beyond-git-the-other-version-control-systems-developers-use/) in software development, known for its efficiency and flexibility.
 - **Centralised vs. Distributed VCS**: Centralised systems store all versions in a single central repository, while distributed systems like Git allow each user to have a complete copy of the repository.
 - **Popular**: Git is popular due to its robustness, support for non-linear development (branching), and widespread community adoption.
 
