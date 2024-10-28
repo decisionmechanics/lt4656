@@ -181,6 +181,20 @@ This course is designed to equip programmers, data scientists, technical authors
 
 ## Section 6: Using a Git GUI
 
+There are many general-purpose Git GUI applications, including
+
+- [Fork](https://git-fork.com)
+- [GitHub Desktop](https://github.com/apps/desktop)
+- [GitKraken](https://www.gitkraken.com)
+- [Lazygit](https://github.com/jesseduffield/lazygit)
+- [Sourcetree](https://www.sourcetreeapp.com)
+- [TortoiseGit](https://tortoisegit.org)
+- [Tower](https://www.git-tower.com)
+
+In addtion, every major IDE/editor has it's own builtin Git tooling.
+
+GitKraken is a cross-platform app with a free tier.
+
 ### Introduction to GitKraken
 
 - **GitKraken**: A popular Git graphical user interface (GUI) that simplifies Git commands into a visual experience.
@@ -347,6 +361,8 @@ This course is designed to equip programmers, data scientists, technical authors
 
 ### Techniques to Undo Changes
 
+- **Using `git restore [--source HEAD] <file>`**: Restores the file in the working directory to the one stored in the latest (HEAD) commit.
+- **Using `git restore --staged <file>`**: Unstages the file.
 - **Using `git reset`**: Reverts the repository to a previous state. `git reset --hard [commit]` discards all changes, while `git reset --soft [commit]` keeps the changes but undoes the commit.
 - **Using `git revert`**: Creates a new commit that undoes the changes made in a specific commit, preserving the project history.
 
